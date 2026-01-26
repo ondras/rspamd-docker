@@ -7,4 +7,4 @@ VOLUME ["/var/lib/rspamd"]
 
 EXPOSE 11332/tcp 11333/tcp 11334/tcp
 
-ENTRYPOINT ["/usr/sbin/rspamd", "-f", "--insecure"]
+ENTRYPOINT ["/usr/bin/rspamd", "-f", "--insecure"]
